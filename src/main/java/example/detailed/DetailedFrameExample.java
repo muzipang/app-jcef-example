@@ -44,6 +44,7 @@ public class DetailedFrameExample extends JFrame {
   public static void main(String [] args) {
     // OSR mode is enabled by default on Linux.
     // and disabled by default on Windows and Mac OS X.
+	// and disabled by default on Windows and Mac OS X.
     boolean osrEnabledArg = OS.isLinux();
     String cookiePath = null;
     for (String arg : args) {
